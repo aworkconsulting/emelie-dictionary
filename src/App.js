@@ -1,6 +1,7 @@
 import logo from "./aworklogo.svg";
 import "./App.css";
 import Dictionary from "./Dictionary";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -10,9 +11,7 @@ function App() {
           <img src={logo} className="App-logo img-fluid" alt="logo" />
         </header>
         <Dictionary />
-        <footer className="App-footer">
-          <small>Coded by Emelie</small>
-        </footer>
+        <Footer />
       </div>
     </div>
   );
