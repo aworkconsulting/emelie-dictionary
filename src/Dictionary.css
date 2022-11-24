@@ -5,24 +5,30 @@
 .Meaning {
   text-align: left;
 }
+.Section {
+  display: block;
+}
+.form {
+  display: block;
+  margin-top: 0em;
+}
 .Dictionary label {
   display: block;
   font-weight: bold;
   margin-bottom: 20px;
 }
 
-.hint {
-  font-weight: bold;
-}
-.Section {
-  display: block;
-}
 .Dictionary section {
   border-radius: 8px;
-  background: white;
+  background: #ffceb6;
   margin-top: 10px;
   padding: 40px;
 }
+.Dictionary .hint {
+  margin-top: 15px;
+  display: block;
+}
+
 .Dictionary .search-input {
   display: block;
   height: 64px;
