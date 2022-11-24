@@ -1,5 +1,6 @@
 .Dictionary {
-  text-align: center;
+  max-width: 960px;
+  margin: 0 auto;
 }
 .Meaning {
   text-align: left;
@@ -21,4 +22,15 @@
   background: white;
   margin-top: 10px;
   padding: 40px;
+}
+.Dictionary .search-input {
+  display: block;
+  height: 64px;
+  color: #666;
+  font-size: 18px;
+  line-height: 21px;
+  padding: 22px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  width: 100%;
 }

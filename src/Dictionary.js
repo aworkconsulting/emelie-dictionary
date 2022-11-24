@@ -24,12 +24,13 @@ export default function Dictionary() {
   }
   return (
     <div className="Dictionary">
-      <label>What word do you want to look up?</label>
       <br />
       <section>
+        <label>What word do you want to look up?</label>
         <form onSubmit={search}>
           <input
             type="search"
+            placeholder="Enter a word"
             autoFocus={true}
             onChange={handleKeywordChange}
           />
