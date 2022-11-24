@@ -8,7 +8,7 @@ export default function App() {
         <a href="https://aworkconsulting.se/" target="_blank" rel="noreferrer">
           Emelie Jansson{" "}
         </a>
-        and is{" "}
+        , is{" "}
         <a
           href="https://github.com/aworkconsulting/emelie-dictionary"
           target="_blank"
@@ -22,8 +22,9 @@ export default function App() {
           target="_blank"
           rel="noreferrer"
         >
-          hosted on Netlify!
+          hosted on Netlify
         </a>
+        🤓
       </small>
     </footer>
   );
