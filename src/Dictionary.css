@@ -23,20 +23,27 @@
   background: #ffceb6;
   margin-top: 10px;
   padding: 40px;
-}
-.Dictionary .hint {
-  margin-top: 15px;
-  display: block;
+  box-shadow: 0px 10px 10px rgb(0 0 0/10%);
 }
 
-.Dictionary .search-input {
+.Dictionary input {
   display: block;
   height: 64px;
-  color: #666;
+  color: black;
   font-size: 18px;
   line-height: 21px;
   padding: 22px;
   border: 1px solid #ddd;
   border-radius: 6px;
   width: 100%;
+  border-color: black;
+}
+.Dictionary label {
+  font-size: x-large;
+}
+.Dictionary .hint {
+  margin-top: 15px;
+  display: block;
+  font-size: 12px;
+  font-weight: bold;
 }

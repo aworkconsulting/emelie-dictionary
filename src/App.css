@@ -1,6 +1,10 @@
 body {
   background-color: white;
 }
+
+a {
+  color: #9679f4;
+}
 .App {
   padding: 60px 0 100px;
   max-width: 960px;
