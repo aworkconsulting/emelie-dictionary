@@ -17,7 +17,7 @@ function App() {
           </a>
         </header>
 
-        <Dictionary defaultKeyword="marketing" />
+        <Dictionary defaultKeyword="summer" />
         <Footer />
       </div>
     </div>
